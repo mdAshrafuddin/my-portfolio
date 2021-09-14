@@ -1,0 +1,226 @@
+/*Medium Devices (Desktops & Laptops)*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .navbar-toggler {
+        background-color: #f3f7ec;
+        border-radius: 0;
+        margin-top: -40px;
+    }
+    nav.navbar.navbar-expand-lg.navbar-light {
+        height: 66px;
+    }
+    .navbar-brand img {
+        width: 116px;
+        margin-top: -40px;
+    }
+    
+
+    .about-right h1 {
+        font-size: 24px;
+    }
+    .about-short-contact-wrap ul li label {
+        font-size: 14px;
+        width: 100%;
+    }   
+    .about-short-contact-wrap span {
+        font-size: 13px;
+    }
+    .about-left img {
+        width: 90%;
+        height: 220px;
+        margin: 134px 0px 0px -16px;
+    }
+    .line_double::before, .line_double::after {
+        top: 20%;
+        left: 33%;
+    }
+    .line_double::after {
+        left: 60%;
+    }
+    #skill .line_double::before, #skill .line_double::after {
+        left: 35%;
+    }
+    #skill .line_double::after {
+        left: 57%;
+    }
+    .nav-pills .nav-link {
+        margin-left: 0px;
+    }
+    #service .line_double::before, #service .line_double::after {
+        left: 31%;
+    }
+    #service .line_double::after {
+        left: 62%;
+    }
+    #contact .line_double::before, #contact .line_double::after {
+        left: 30%;
+    }
+    #contact .line_double::after {
+        left: 63%;
+    }
+}
+/*Small Devices (Desktops & Laptops)*/
+@media (min-width: 576px) and (max-width: 767px) {
+    .navbar-toggler {
+        background-color: #f3f7ec;
+        border-radius: 0;
+        margin-top: -40px;
+    }
+    nav.navbar.navbar-expand-lg.navbar-light {
+        height: 66px;
+    }
+    .navbar-brand img {
+        width: 116px;
+        margin-top: -40px;
+    }
+    .about-right h1 {
+        font-size: 24px;
+    }
+    .about-left img {
+        width: 40%;
+        height: 200px;
+        margin: -14px 0px 0px 148px;
+    }
+    .about-content {
+        margin-top: 39px;
+    }
+    .about-short-contact-wrap ul li label {
+        min-width: 68px;
+    }
+    .about-short-contact-wrap span {
+        font-size: 12px;
+    }
+    .line_double::before, .line_double::after {
+        left: 28%;
+    }
+    .line_double::after {
+        left: 64%;
+    }
+    #skill .line_double::before, #skill .line_double::after {
+        left: 30%;
+    }
+    #skill .line_double::after {
+        left: 60%;
+    }
+    .nav-pills .nav-link {
+        margin-left: 6px;
+        margin-bottom: 10px;
+    }
+    #service .line_double::before, #service .line_double::after {
+        left: 21%;
+    }
+    #service .line_double::after {
+        left: 69%;
+    }
+    #contact .line_double::before, #contact .line_double::after {
+        left: 30%;
+    }
+    #contact .line_double::after {
+        left: 63%;
+    }
+}
+/*Extra small Devices (Desktops & Laptops)*/
+@media (max-width: 575px) {
+    .white-nav-top .navbar-toggler {
+        margin-left: 16px;
+    }
+    .white-nav-top .navbar-collapse {
+        margin-top: -39px;
+    }
+    .white-nav-top .navbar-nav {
+        background-color: red;
+    }
+    .white-nav-top .navbar-nav {
+        background-color: rgba(0, 0, 0, .8);
+    }
+    .white-nav-top.navbar-light ul.navbar-nav li a.nav-link {
+        color: #fff;
+    }
+    div#home-heading h1 {
+        font-size: 20px;
+    }
+    div#home-heading h2 {
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .home-img img {
+        margin-top: 100px;
+    }
+    .navbar-toggler {
+        background-color: #f3f7ec;
+        border-radius: 0;
+        margin-top: -40px;
+    }
+    nav.navbar.navbar-expand-lg.navbar-light {
+        height: 66px;
+    }
+    .navbar-brand img {
+        width: 116px;
+        margin-top: -40px;
+    }
+    .about-right h1 {
+        font-size: 19px;
+    }
+    h2.title {
+    font-weight: 700;
+    font-size: 19px;
+    }
+    .line_double::before, .line_double::after {
+        left: 42%;
+        top: 50%;
+    }
+    .line_double::after {
+        display: none;
+    }
+    #skill .line_double::before, #skill .line_double::after {
+        left: 42%;
+        top: 50%;
+    }
+    #skill .line_double::after {
+        display: none;
+    }
+    .about-left img {
+        width: 46%;
+        height: 146px;
+        margin: -14px 0px 0px 83px;
+    }
+    .about-content {
+        margin-top: 39px;
+    }
+     .about-right h1 {
+        font-size: 17px;
+    }
+    .about-short-contact-wrap ul li label {
+        font-size: 14px;
+        width: 100%;
+    }   
+    .about-short-contact-wrap span {
+        font-size: 13px;
+    }
+    .about-short-contact-wrap ul li {
+        width: 100%;
+        margin: 0px 0px 8px 4px;
+    }
+    .buttons_wrap ul li a {
+        padding: 12px 23px;
+        font-size: 13px;
+    }
+    .nav-pills .nav-link {
+        font-size: 12px;
+        padding: 12px 13px 12px 6px;
+        margin-bottom: 12px;
+    }
+    .progress-bar span {
+        left: 86%;
+    }
+    #isotope-filters button {
+        padding-right: 0px;
+    }
+}
+
+@media(max-width: 320px) {
+    .buttons_wrap ul li a {
+        padding: 12px 13px;
+    }
+}
